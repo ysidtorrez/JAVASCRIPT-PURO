@@ -1,0 +1,52 @@
+[
+ {
+	"id":"1",
+	"nombre":"ysid",
+	"apellidos":"torrez",
+	"nameUsuario":"ysid",
+	"clave":"1234",
+	"correo":"admin@gmail.com"
+  
+ },
+    
+
+    {
+	"id":"2",
+	"nombre":"ysid",
+	"apellidos":"torrez",
+	"nameUsuario":"ysid",
+	"clave":"1234",
+	"correo":"admin@gmail.com"
+
+    },
+
+    {
+	"id":"3",
+	"nombre":"yasdd",
+	"apellidos":"torrez",
+	"nameUsuario":"ysid",
+	"clave":"1234",
+	"correo":"admin@gmail.com"
+
+    },
+
+    {
+	"id":"4",
+	"nombre":"rtrtt",
+	"apellidos":"torrez",
+	"nameUsuario":"ysid",
+	"clave":"1234",
+	"correo":"admin@gmail.com"
+    },
+
+    {
+	"id":"5",
+	"nombre":"ytrtewf",
+	"apellidos":"jiosjiojd",
+	"nameUsuario":"dfffgd",
+	"clave":"1234",
+	"correo":"admin@gmail.com"
+    }
+
+
+]

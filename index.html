@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Tabla de JavaScrpts</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+
+<!--login modal-->
+<div class="container">
+ <h1> table de datos javascrit puro</h1>
+ <br>
+  <table class="table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Apellidos</th>
+      <th>nameUsuario</th>
+       <th>Clave</th>
+       <th>Correo</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+
+</div>
+
+
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+    <script>
+      $.getJSON("data.json",function(data){
+          var items=[];
+          $.each(data, function(key, val)
+          {
+              items.push("<tr>");
+               items.push("<td id=''"+key+"''>"+val.id+"</td>");
+                items.push("<td id=''"+key+"''>"+val.nombre+"</td>");
+                 items.push("<td id=''"+key+"''>"+val.apellidos+"</td>");
+                  items.push("<td id=''"+key+"''>"+val.nameUsuario+"</td>");
+                   items.push("<td id=''"+key+"''>"+val.clave+"</td>");
+                    items.push("<td id=''"+key+"''>"+val.correo+"</td>");
+              
+                   items.push("<tr>");
+          });
+          $("<tbody/>",{class: "mydata", html: items.join("")}).appendTo("table");
+      });
+    </script>
+
+
+
+
+
+	</body>
+</html>
+<Html> 
+
+
